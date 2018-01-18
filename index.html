@@ -1,10 +1,170 @@
 
 </!DOCTYPE html>
 <html>
+
+
 <head>
-	<title></title>
+	<title>My Porfolio</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/page.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
+
+
 <body>
-Hi.
+
+<!-- Navigation Bar	 -->
+<nav class=" navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Nico Santarin</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      
+    
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#aboutme">About Me</a>
+          <a class="dropdown-item" href="#myprojects">Projects</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Carousel --> 
+<div id="myCarousel" class="carousel slide bg-inverse w-50 ml-auto mr-auto" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/kpu-logo.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/kpu-school.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/webdesign.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+ <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+      <div class="container">
+        
+        <h1 class="text-uppercase mb-0">Nico Santarin</h1>
+<h2 class="font-weight-light mb-0">KPU Student - Web Developer - Software Developer</h2>
+        <hr class="customline">
+        <img class="img-fluid mb-4 d-block mx-auto" src="images/profile1.jpg" alt="" id="aboutme">
+    
+      <br>
+
+        <h3 class="font-weight-light mb-0">Hi, I am 23 year old developer based out of Vancouver. I am curently in my  4th year at Kwantlen in pursuit of my BTech in IT. I am an inspiring developer who loves to design and code. My interests include front end and back end programming.</h3>
+      </div>
+
+      <br>
+    </header>
+
+
+<!-- Grid -->
+<section class="portfolio" id="myprojects">
+      <div class="container">
+        <h1 class="text-center text-uppercase text-secondary mb-0">Projects</h1>
+        <hr class="customline">
+        <div class="row">
+
+          <div class="col-md-6 ">
+            <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-Modal1">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100">
+                </div>
+              </div>
+              <img class="img-fluid" src="images/portfolio1SM.jpg" alt="" >
+            </a>
+          </div>
+			<div class="modal fade" id="portfolio-Modal1" role="dialog">
+			    <div class="modal-dialog modal-lg">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          
+			          <h4 class="modal-title">ConnectED</h4>
+			       
+			        </div>
+			        <div class="modal-body">
+			        	<img class="img-fluid" src="images/portfolio1BG.jpg" alt="">
+			          <p>Educational Collaborative Platform.</p>
+			        </div>
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+
+
+
+          <div class="col-md-6 ">
+            <a class="portfolio-item d-block mx-auto" data-toggle="modal" data-target="#portfolio-Modal2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">               
+                </div>
+              </div>
+              <img class="img-fluid" src="images/portfolio2SM.jpg" alt="">
+            </a>
+          </div>
+          <div class="modal fade" id="portfolio-Modal2" role="dialog">
+			    <div class="modal-dialog modal-lg">
+			      <div class="modal-content">
+			        <div class="modal-header">
+			          
+			          <h4 class="modal-title">EDEN</h4>
+
+			        </div>
+			        <div class="modal-body">
+			        	<img class="img-fluid" src="images/portfolio2BG.jpg" alt="">
+			          <p>Scheduling and Payroll System.</p>
+			        </div>
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+        
+      </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- Javascript -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 </body>
+
 </html>
