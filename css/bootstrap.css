@@ -35,6 +35,13 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+/*colours
+TAN #C09F80
+light grey #D7CEC7
+Maroon #76323F
+dark Grey #565656
+*/
+
 *,
 *::before,
 *::after {
@@ -106,7 +113,7 @@ hr.scustomline:before {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      background-color: rgba(201,221,255, 0.7); }
+      background-color: rgba(215,206,199, 0.7); }
       .portfolio .portfolio-item .portfolio-item-caption:hover {
         opacity: 1; }
       .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
@@ -6065,7 +6072,19 @@ button.close {
   vertical-align: text-top !important;
 }
 
-.bg-primary {
+.bg-Cprimary{
+background-color: #C09F80 !important;
+}
+
+
+
+a.bg-Cprimary:focus, a.bg-Cprimary:hover,
+button.bg-Cprimary:focus,
+button.bg-Cprimary:hover {
+  background-color: #0062cc !important;
+}*/
+
+/*.bg-primary {
   background-color: #007bff !important;
 }
 
@@ -6073,10 +6092,10 @@ a.bg-primary:focus, a.bg-primary:hover,
 button.bg-primary:focus,
 button.bg-primary:hover {
   background-color: #0062cc !important;
-}
+}*/
 
 .bg-secondary {
-  background-color: #868e96 !important;
+  background-color: #D7CEC7 !important;
 }
 
 a.bg-secondary:focus, a.bg-secondary:hover,
